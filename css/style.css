@@ -1,0 +1,422 @@
+/* CSS Styles */
+
+@font-face{
+  font-family: Cola;
+  src: url(loki_cola/LOKICOLA.ttf) format('truetype');
+}
+
+html{
+  font-family: 'Arial';
+  background-color: rgb(235, 52, 134);
+}
+
+#home{
+  background: url(../images/enjoy_capitalism.png) no-repeat center center fixed;
+  background-size: cover;
+}
+
+#climateChange{
+  background: url(../gifs/490a30d3fb8104f197dc20da771cb8efb1481ed3.gif) no-repeat center center fixed;
+  background-size: 1410px 765px;
+}
+
+#wealthIn{
+  background: url(../gifs/.gif);
+}
+
+#dataM{
+  background: url(../gifs/bluekai-tc-hero.gif);
+}
+
+body{
+  padding:0px;
+  margin: 0px;
+}
+
+.h1Home{
+  text-align: center;
+  font-family: Cola;
+  font-size: 75px;
+  color: white;
+  margin-top: 0px;
+  padding-top: 20px;
+}
+
+p{
+  color: rgb(52, 89, 235);
+  font-size: 20px;
+  margin-left: 10px;
+  margin-right: 10ps;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+  padding: 30px;
+}
+
+a:hover{
+  color: grey;
+  text-decoration: none;
+}
+
+.menu> li{
+  list-style-type: none;
+  display: inline;
+  padding: 10px;
+  background-color: white;
+  border: 2px black solid;
+}
+
+.menu{
+  text-align: center;
+}
+
+.menu2> li{
+  list-style-type: none;
+  display: inline;
+  padding: 10px;
+  background-color: #931BFF;
+  border: 2px black solid;
+}
+
+.menu2{
+  text-align: center;
+  filter: drop-shadow(30px -15px 25px #931BFF);
+}
+
+.menu4> li{
+  list-style-type: none;
+  display: inline;
+  padding: 10px;
+  background-color: transparent;
+  border: 2px white solid;
+}
+
+.menu4{
+  text-align: center;
+}
+
+#mainContainer{
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+#contentContainerCC{
+  position: relative;
+  width: 800px;
+  height: auto;
+  background-color: black;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0.3;
+}
+
+.centeredText{
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 0px;
+  color: #931BFF;
+  font-size: 75px;
+  filter: drop-shadow(30px -15px 25px #931BFF);
+}
+
+.centeredTextDM{
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 0px;
+  color: white;
+  font-size: 75px;
+}
+
+.city{
+  filter: drop-shadow(0px 0px 50px #931BFF);
+}
+
+.imac{
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  display: inline-block;
+}
+
+.mountainVideo{
+  position: absolute;
+  left: 50px;
+  top: 20%;
+  display: inline-block;
+}
+
+.titleText{
+  position: absolute;
+  font-size: 40px;
+  color: white;
+  left: 30px;
+}
+
+#pg2Link{
+  position: absolute;
+  color: white;
+  text-decoration: none;
+  top: 80%;
+}
+
+@keyframes fading{
+  0%{
+    opacity: 0;
+  }
+  20%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+  }
+}
+
+@keyframes fading2{
+  0%{
+    opacity: 0;
+  }
+  40%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+  }
+}
+
+@keyframes fading3{
+  0%{
+    opacity: 0;
+  }
+  60%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+  }
+}
+
+@keyframes fading4{
+  0%{
+    opacity: 0;
+  }
+  80%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+  }
+}
+
+@keyframes fading5{
+  0%{
+    opacity: 0;
+  }
+  20%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+  }
+}
+
+@keyframes fading6{
+  0%{
+    opacity: 0;
+  }
+  40%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+  }
+}
+
+@keyframes fading7{
+  0%{
+    opacity: 0;
+  }
+  60%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+  }
+}
+
+@keyframes fading8{
+  0%{
+    opacity: 0;
+  }
+  80%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+  }
+}
+
+.fadeIn{
+  animation: fading 1s infinite;
+  display: block;
+  width: 76px;
+  height: 76px;
+  margin-left: 235px;
+  margin-top: -21px;
+  filter: drop-shadow(0px 0px 50px white);
+}
+
+.fadeFa{
+  animation: fading 1s infinite;
+  display: block5;
+  width: 76px;
+  height: 76px;
+  margin-left: 627px;
+  margin-top: 2px;
+  filter: drop-shadow(0px 0px 50px white);
+}
+
+.fadeSn{
+  animation: fading3 1s infinite;
+  display: block;
+  width: 137px;
+  height: 137px;
+  margin-left: 1144px;
+  margin-top: -32px;
+  filter: drop-shadow(0px 0px 50px white);
+}
+
+.fadeTw{
+  animation: fading8 1s infinite;
+  display: block;
+  width: 80px;
+  height: 80px;
+  margin-left: 390px;
+  margin-top: -30px;
+  filter: drop-shadow(0px 0px 50px white);
+}
+
+.fadeGo{
+  animation: fading7 1s infinite;
+  display: block;
+  width: 78px;
+  height: 78px;
+  margin-left: 862px;
+  margin-top: -3px;
+  filter: drop-shadow(0px 0px 50px white);
+}
+
+.fadeAm{
+  animation: fading4 1s infinite;
+  display: block;
+  width: 85px;
+  height: 85px;
+  margin-left: 151px;
+  margin-top: -6px;
+  filter: drop-shadow(0px 0px 50px white);
+}
+
+.fadeMi{
+  animation: fading6 1s infinite;
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin-left: 1006px;
+  margin-top: -14px;
+  filter: drop-shadow(0px 0px 50px white);
+}
+
+.fadeTe{
+  animation: fading2 1s infinite;
+  display: block;
+  width: 92px;
+  height: 92px;
+  margin-left: 542px;
+  margin-top: -17px;
+  filter: drop-shadow(0px 0px 50px white);
+}
+
+/* flex box stuff  */
+
+.row{
+  height: auto;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  opacity: 0.1;
+}
+
+.greenDiv{
+  position: relative;
+  flex:1;
+  height: 200px;
+  color: white;
+  background-color: green;
+}
+
+.yellowDiv{
+  position: relative;
+  flex: 1;
+  height: 200px;
+  color: black;
+  background-color: yellow;
+}
+
+.relativePos{
+  width: 50px;
+  z-index: 1;
+  height: 50px;
+  left: 30px;
+  top: 50px;
+  position: relative;
+  background-color: orange;
+}
+
+.absPos{
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  background-color: purple;
+  left: 10px;
+}
+
+.fixedPos{
+  position: fixed;
+  top: 40px;
+  left: 100px;
+  z-index: -1;
+}
+
+/* Animation things */
+
+.animated-circle{
+  width: 200px;
+  height: 200px;
+  position: fixed;
+  z-index: 2;
+  border-radius: 50%;
+  background-color: rgb(200, 100, 40);
+  top: 200px;
+  transform: skewY(20deg);
+  animation-name: moving-circle;
+  animation-duration: 1m;
+  animation-iteration-count: infinite;
+}
+
+@keyframes moving-circle{
+  0%{
+    left: 0px;
+    background-color: rgb(200, 100, 40);
+  }
+
+  50%{
+    left: calc(100% - 200px);
+    background-color: rgb(100, 200, 40);
+  }
+
+  100%{
+    left: 0px;
+    background-color: rgb(200, 100, 40);
+  }
